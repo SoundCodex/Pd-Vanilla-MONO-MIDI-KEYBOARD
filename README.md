@@ -1,6 +1,5 @@
 # Pd-Vanilla-MONO-MIDI-KEYBOARD
-
-![mmk](https://user-images.githubusercontent.com/63967684/235365945-d169210e-448b-45e0-ae08-d82d8ff4019f.jpg)
+![mmk](https://user-images.githubusercontent.com/63967684/235366111-8b2f1cc2-f752-4f52-83d1-e2dba6ad2592.jpg)
 
 This is an abstraction made for live performance, patch testing, and quick demos. 
 You can switch from MIDI mode to FREQUENCY mode using the gray toggle. ù
