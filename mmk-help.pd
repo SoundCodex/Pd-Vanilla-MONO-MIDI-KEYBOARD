@@ -1,0 +1,22 @@
+#N canvas 323 48 1353 1024 12;
+#X obj 30 65 mmk;
+#X obj 345 321 t f b, f 13;
+#X obj 433 345 outlet bang;
+#X obj 345 345 outlet note;
+#X text 27 317 The abstraction internally outputs the note value and
+the bang in the following order., f 43;
+#X text 28 25 Monophonic Midi Keyboard (Version 1.0);
+#X text 27 457 This abstraction was made by Umberto Maria Boldarin.
+YouTube channel: Sound Codex, f 52;
+#X text 27 259 This is an abstraction made for live performance \,
+patch testing \, and quick demos. You can switch from MIDI mode to
+FREQUENCY mode using the gray toggle. Notes can be transposed two octaves
+above and below middle C (full 5-octave range)., f 83;
+#X text 27 380 Each key is a canvas placed on top of three bangs. This
+walkaround used to recreate the piano keyboard is very delicate. If
+you open the abstraction and click on a key (when in Edit-Mode) \,
+Pd will select the bang object underneath and not the canvas. Arranging
+each key is a very time demanding process so if you ever want to do
+that make shure to save a backup patch., f 88;
+#X connect 1 0 3 0;
+#X connect 1 1 2 0;
